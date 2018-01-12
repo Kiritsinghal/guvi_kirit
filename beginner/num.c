@@ -3,16 +3,21 @@ void main()
 {
 	int n;
 	scanf("%d",&n);
-	if(n>0)
+	if(n>=1 && n<=100000)
 	{
-		printf("Positive");
-	}
-	else if(n<0)
-	{
-		printf("Negative");
+		if(n>0)
+		{
+			printf("Positive");
+		}
+		else if(n<0)
+		{
+			printf("Negative");
+		}
+		else
+		{
+			printf("Zero");
+		}
 	}
 	else
-	{
-		printf("Zero");
-	}
+		printf("Number not in range");
 }
