@@ -19,7 +19,5 @@ void main()
 		}
 	}
 	else
-	{
 		printf("Number not in range");
-	}
 }
