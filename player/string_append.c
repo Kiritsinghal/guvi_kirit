@@ -3,5 +3,6 @@ void main()
 {
 	char s[20];
 	gets(s);
-	printf("%s.",n);
+	strcat(s, ".");
+	printf("%s",s);
 }
